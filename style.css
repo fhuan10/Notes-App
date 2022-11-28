@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image:url(photo/peach.jpg);
+}
+
+div.screen {
+  border: 2px black solid;
+  height: 150vh;
+  width: 150vh;
+  display: none;
+}
+
+#div1 {
+  background-color: peachpuff;
+  position: relative;
+  left: 12%;
+}
+
+#div2 {
+  background-color: lightgoldenrodyellow;
+}
+
+#div3 {
+  background-color: #ADD8E6;
+}
+
+#div4 {
+  background-color: orange;
+}
+
+
+/* #myCanvas {
+  background-color:peachpuff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 85%;
+} */
+#add_note {
+  color: blue;
+  position: absolute;
+  right: 50%;
+}
+
+#submit_note {
+  color: blue;
+  width:100%
+}
+
+#edit_note {
+  color: blue;
+  width: 100%
+}
+header {
+  background-color:beige;
+}
+
+.edit_button {
+  position:relative;
+  left: 90%;
+  bottom: 25px;
+}
+
+.border {
+  border: thick solid;
+}
+
+.note-number {
+  position:relative;
+  left: 95%;
+  bottom: 25px;
+}
+
+.search {
+  width: 50%;
+}
+
+.mdc-text-field {
+  width: 50%;
+}
+
+.note-image {
+  width:10%;
+  height:10%;
+}
+
+.note-entry-image {
+  width:30%;
+  height:30%;
+}
