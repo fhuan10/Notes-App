@@ -225,11 +225,18 @@ submitBtn.addEventListener("click", (event) => {
       document.querySelector("#div3").style.display = "block";
 
       document.querySelector(".note-entry-title").innerText = title_entry.value;
+      console.log(title_entry.value)  // TEST
       document.querySelector(".note-entry-description").innerText = body_entry.value;
+      console.log(body_entry.value)  // TEST
       document.querySelector(".note-entry-image").src = image_entry.value;
 
       document.querySelector(".border").setAttribute("id", "noteNum" + noteNum)
     })
+
+    // // Clear the entry in the add note section
+    // title_entry.value = "";
+    // body_entry.value = "";
+    // image_entry.value = "";
 
     // Switch to the Note List screen
     document.querySelector("#div2").style.display = "none";
@@ -280,7 +287,7 @@ editButton.addEventListener("click", (event) => {
 
       // TODO(?): Show the edit changes w/o having to refresh the page
       alert("The note have been updated. Refresh to see the change.")
-    })
+    });
 
   } else {
     alert("Need to select a note from the list to edit.")

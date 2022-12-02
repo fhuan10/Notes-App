@@ -4,8 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>NOTE APP</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+ <!--  Manifest  -->
+  <link rel="manifest" href="manifest.json">
 
   <!-- Material.io -->
   <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
@@ -22,16 +25,19 @@
 
 
 <header>
-  <center>
-    <a href="" data-screen="div1">Note List</a>
-    <a href="" data-screen="div2">Add Note</a>
-    <a href="" data-screen="div3">Note Entry</a>
-    <a href="" data-screen="div4"></a> 
-    <br>
-    <input id="searchbar" onkeyup="searchNoteTitles()" type="text" class="search" placeholder="Search for the note title...">
-    <button type="submit" class="searchButton">Submit</button>
-    <br> <br>
-  </center>
+  <div style="width:100%">
+    <center>
+      <a href="" data-screen="div1">Note List</a>
+      <a href="" data-screen="div2">Add Note</a>
+      <a href="" data-screen="div3">Note Entry</a>
+      <a href="" data-screen="div4"></a>
+      <br>
+      <input id="searchbar" onkeyup="searchNoteTitles()" type="text" class="search"
+        placeholder="Search for the note title...">
+      <button type="submit" class="searchButton">Submit</button>
+      <br> <br>
+    </center>
+  </div>
 </header>
 
 <body>
@@ -115,8 +121,7 @@
       <br>
 
       <h3>Insert an Image Link</h3>
-      <h8>(Must end with .png, .jpg, or .jpeg)</h8>
-      <br> <br>
+      <br>
       <label class="mdc-text-field mdc-text-field--filled">
         <span class="mdc-text-field__ripple"></span>
         <input class="mdc-text-field__input image-input" type="text" aria-labelledby="my-label-id">
@@ -209,6 +214,7 @@
     </div>
   </center>
 
+  <script src="app.js"></script>
 
   <script src="script.js"></script>
 

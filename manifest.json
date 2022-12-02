@@ -1,0 +1,14 @@
+{
+  "name": "NOTE APP",
+  "short_name": "Note",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/photo/peach.jpg",
+      "type": "image/jpg", "sizes": "500x345"
+    }
+  ]
+}
